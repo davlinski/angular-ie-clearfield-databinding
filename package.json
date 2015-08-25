@@ -1,0 +1,35 @@
+{
+  "name": "angular-ie-clearfield-databinding",
+  "version": "1.0.0",
+  "description": "IE10 introduces a \"clear field\" button on inputs, but AngularJS 1.3 does not update the model when clicked. Use this polyfill to get your data binding to work properly.",
+  "scripts": {
+    "dist": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paquettea/angular-ie-clearfield-databinding.git"
+  },
+  "keywords": [
+    "polyfill",
+    "internet",
+    "explorer",
+    "clear",
+    "field",
+    "input",
+    "data",
+    "binding"
+  ],
+  "author": "Alexandre Paquette <alexandre.paquette@nadrox.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paquettea/angular-ie-clearfield-databinding/issues"
+  },
+  "homepage": "https://github.com/paquettea/angular-ie-clearfield-databinding#readme",
+  "devDependencies": {
+    "del": "^1.2.1",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-uglify": "^1.3.0"
+  }
+}
