@@ -1,4 +1,4 @@
-# angular-ie-clearfield-polyfill
+# angular-ie-clearfield-databinding
 IE10 introduces a "clear field" button on inputs, but AngularJS 1.3 does not update the model when clicked. 
 Use this polyfill to get your data binding to work properly. The only requirement to make this polyfill work
 is to load the script and add the dependency in your own module. Since it's declaring a directive on ```input```
