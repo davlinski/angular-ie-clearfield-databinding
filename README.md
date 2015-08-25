@@ -19,7 +19,7 @@ Check the content of /dist folder.
 
 ##Add the file... 
 
-... ```anguar-ie-clearfield-databinding.js``` OR ```anguar-ie-clearfield-databinding.min.js``` in your loaded sources 
+... ```angular-ie-clearfield-databinding.js``` OR ```angular-ie-clearfield-databinding.min.js``` in your loaded sources 
 using whatever method your project requires. This module should be after ```angular.js``` script and before your own 
 app module.
 

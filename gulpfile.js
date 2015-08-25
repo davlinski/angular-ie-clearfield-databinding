@@ -7,7 +7,7 @@ var ngAnnotate = require('gulp-ng-annotate');
 
 function uglifyTask() {
     return gulp.src('dist/**/*.js')
-        .pipe(concat('anguar-ie-clearfield-databinding.min.js'))
+        .pipe(concat('angular-ie-clearfield-databinding.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('dist'));
 }
@@ -16,7 +16,7 @@ function annotateTask() {
     return gulp.src([
         'src/**/module.js',
         'src/**/*.js'])
-        .pipe(concat('anguar-ie-clearfield-databinding.js'))
+        .pipe(concat('angular-ie-clearfield-databinding.js'))
         .pipe(ngAnnotate())
         .pipe(gulp.dest('dist'));
 }
