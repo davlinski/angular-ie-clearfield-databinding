@@ -10,7 +10,7 @@ tags, it will apply itself when needed.
 ### Bower
 
 ```bash
-bower install angular-ie-clearfield-polyfill
+bower install angular-ie-clearfield-databinding
 ```
 
 ### Manually
