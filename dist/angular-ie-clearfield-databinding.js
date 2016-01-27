@@ -11,7 +11,7 @@ angular.module('ie-clearfield-databinding').directive('input', ["$window", funct
     }
     return {
         restrict: 'E',
-        require: 'ngModel',
+        require: '?ngModel',
         link: function (scope, element, attrs, ngModelController) {
 
             function updateModel(event) {
